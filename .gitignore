@@ -1,0 +1,22 @@
+# Ignore all workspace-specific settings, which often cause merge conflicts
+.obsidian/workspace*
+
+# Ignore specific cache, backup, and log files
+.obsidian/cache/
+.obsidian/backups/
+.obsidian/logs/
+
+# Ignore plugin CSS snippets and development files
+.obsidian/snippets/
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+
+# Optional: Ignore all local plugins if you manage them globally or via other means
+# .obsidian/plugins/
+
+# Optional: Ignore theme files if you don't want them synced
+# .obsidian/themes/
+
+# Ignore system-generated hidden files
+.DS_Store
+Thumbs.db
